@@ -1,0 +1,15 @@
+            <div class="addForm">
+              <div class="mt-3">
+                  <input type="email" placeholder='Email cím "valami@valami.com"  '
+                  id="LogEmailInput" class="LogEmail form-control" required="">
+              </div>
+              <div class="mt-3">
+                <input type="password" placeholder="Jelszó"
+                id="LogPassInput" class="LogPass form-control" required="">
+            </div>
+modal footer
+                        <button type="button" class="btn btn-success" data-dismiss="modal">Mégsem</button>
+  
+            <button type="button" class="btn btn-primary"
+            id="signInButton"
+            data-bs-dismiss="modal">Bejelentkezés</button>

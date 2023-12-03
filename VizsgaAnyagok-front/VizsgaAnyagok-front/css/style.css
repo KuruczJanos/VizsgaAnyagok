@@ -1,0 +1,19 @@
+.banner{
+    height: 400px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center center ;
+
+}
+body{
+    background-color: beige;
+    color: #621b2b;
+
+}
+
+li{
+    list-style: none;
+}
+li img{
+    height: 1.5rem;
+}

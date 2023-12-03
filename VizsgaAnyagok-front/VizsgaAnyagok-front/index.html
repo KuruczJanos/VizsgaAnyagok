@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Projekt</title>
+   
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/home.css">
+
+        <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#"
+          >Lucky
+          <img src="img/clover.svg" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active" href="#">Bejelentkezés </a>
+            <a class="nav-link" href="#">Regisztráció</a>
+          </div>
+        </div>
+      </nav>
+      <div class="banner">
+        <select class="form-select rounded mt-2 col-md-4" aria-label="Default select example">
+            <option selected>Hol keresel?</option>
+            <option value="1">Budapest I. kerület</option>
+            <option value="2">Budapest II. kerület</option>
+            <option value="3">Budapest III. kerület</option>
+          </select>
+
+      </div>
+
+      <div class="container">
+        <h1 class="text-center p-3">Szolgáltatások</h1>
+        <div class="row">
+          <div class="col-md-4 col-12 text-center mb-3">
+            <div class="card">
+              <img src="img/fodrasz.jpg" class="card-img-top" alt="espresso" />
+              <div class="card-body">
+                <h5 class="card-title"> <a href="#" data-toggle="modal" data-target="#idEspresso">Fodrász</a> </h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-12 text-center mb-3">
+            <div class="card">
+              <img src="img/barber.jpg" class="card-img-top" alt="dopio" />
+              <div class="card-body">
+                <h5 class="card-title"> <a href="barber.html">Barber</a> </h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-12 text-center mb-3">
+            <div class="card">
+              <img src="img/smink.jpg" class="card-img-top" alt="melange" />
+              <div class="card-body">
+                <h5 class="card-title">Smink</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-12 text-center mb-3">
+            <div class="card">
+              <img
+                src="img/ristretto.png"
+                class="card-img-top"
+                alt="ristretto"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Szempilla</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-12 text-center mb-3">
+            <div class="card">
+              <img src="img/lungo.png" class="card-img-top" alt="lungo" />
+              <div class="card-body">
+                <h5 class="card-title">Kozmetikus</h5>
+              </div>
+            </div>
+           </div>
+
+           <div class="col-md-4 col-12 text-center mb-3">
+            <div class="card">
+              <img src="img/lungo.png" class="card-img-top" alt="lungo" />
+              <div class="card-body">
+                <h5 class="card-title">Még valami</h5>
+              </div>
+            </div>
+           </div>
+          
+
+          <!-- Modal -->
+          <div class="modal fade" id="idEspresso" tabindex="-1" aria-labelledby="exampleModalLabel"aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Részletes leírás</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <img src="img/espresso.png" class="img-fluid" alt="">
+                      </div>
+                      <div class="col-sm-8">
+                        <h2>Espresso</h2>
+                        <p>A világon nagyon sokan, sokféle kávét készítenek és kávéházak hirdetik az itallapjukon, hogy „olasz eszpresszó” ennyi meg annyiba kerül. Ahány kávézóba térünk be, annyiféle italt fogunk kapni. Egy számunkra ismeretlen kávézóban
+
+                          sosem tudhatjuk előre, hogy egy mennyei italt, vagy egy híg, eszpresszónak semmiképpen nem nevezhető löttyöt kapunk. Gondolom a kedves olvasó is járt már így, eléggé zavaró tud lenni és ez bizony zavarta az olasz embereket is. Minőségbiztosítási célzattal 1998-ban létrehozták a Espresso National Institute-ot, vagyis a Nemzeti Eszpresszó Intézet-et.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-dismiss="modal">Bezár</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+    
+    
+    </div>
+
+    <footer class="container-fluid text-dark">
+      <div class="row">
+        <div class="col-md-4 col-12 offset-md-1">
+          <h2>Kapcsolat</h2>
+          <ul>
+            <li><img src="img/letter.svg" alt="" /> Az oldal neve</li>
+            <li><img src="img/email.svg" alt="" /> valami@gmail.com</li>
+            <li><img src="img/phone.svg" alt="" /> +36-33-158-5588</li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 col-12">
+          <h2>Valami</h2>
+          <p>Íratkozz fel, hogy küldjünk neked sok szart!</p>
+          <form class="form-inline">
+            <input type="text" class="form-control" placeholder="email" />
+            <button class="btn btn-success">Feliratkozom</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+
+    <script src="app.js"></script>
+  </body>
+</html>
